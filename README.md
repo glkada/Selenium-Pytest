@@ -3,6 +3,14 @@
 This project is a demonstration of an automation testing framework using **Selenium** for browser automation, **Behavior-Driven Development (BDD)** for clear, human-readable tests, and **Python** for scripting. It was built from scratch and showcases best practices such as the Page Object Model (POM) for maintainability.
 I have used PyTest's in house reporter to generate reports.
 
+## Description
+This repository contains an end-to-end automation framework that demonstrates a complete workflow for user and ticket management. The framework:
+1. **Creates a new user** – Registers a user in the system.
+2. **Logs in as that user** – Validates authentication by logging into the application using the newly created credentials and verifes if the login was successful.
+3. **Creates a support ticket** – Opens a ticket (e.g., a helpdesk or issue-tracking ticket) as the authenticated user.
+4. **Verifies ticket creation** – Confirms the ticket was successfully added to the system.
+
+
 ## Project Structure
 The project is organized as follows:
 - `features`: Contains the `.feature` files written in Gherkin.
@@ -31,3 +39,7 @@ Contributions to enhance the framework and test coverage are welcome! Feel free 
 
 ## License
 This project is licensed under the MIT License.
+
+## Feedback/Suggestion
+Thanks, for coming up with a feedback/suggestion. You can reach out to me on adityagholkar@gmail.com 
+
